@@ -38,6 +38,8 @@ jsproxy_config({
       hidden: true,
       lines: {
         'proxy.onesides.workers.dev':1
+         'yremp.searched.workers.dev':1
+         'example.searched.workers.dev':1
         // 收费版（高权重）
         //'node-cfworker-2.etherdream.com': 4,
 
