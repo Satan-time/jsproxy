@@ -16,14 +16,14 @@ jsproxy_config({
       label: '演示服务-香港节点',
       lines: {
         // 主机:权重
-        [location.host]: 1,
-        [location.host]: 2,
+        'node-aliyun-hk-1.etherdream.com:8443': 1,
+        'node-aliyun-hk-2.etherdream.com:8443': 2,
       }
     },
     'demo-sg': {
       label: '演示服务-新加坡节点',
       lines: {
-       [location.host]: 1,
+        'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
     'mysite': {
@@ -37,7 +37,6 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        [location.host]: 1,
         // 收费版（高权重）
         //'node-cfworker-2.etherdream.com': 4,
 
