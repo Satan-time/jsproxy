@@ -184,6 +184,7 @@ xqimg.imedao.com
 xavatar.imedao.com
 
 # ???
+phncdn.com
 img-l3.xvideos-cdn.com
 static-egc.xvideos-cdn.com
 img-hw.xvideos-cdn.com
